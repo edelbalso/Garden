@@ -475,13 +475,15 @@ class Gdn_UserModel extends Gdn_Model {
                Plural($NewCount, 'role', 'roles')
             );
          }
-
-         AddActivity(
+         if($Session->UserID)
+         {
+           AddActivity(
             $Session->UserID,
             'RoleChange',
             $Story,
             $UserID
-         );
+           );
+         }
       }
    }
 
