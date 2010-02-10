@@ -11,10 +11,10 @@ Contact Mark O'Sullivan at mark [at] lussumo [dot] com
 /**
  * An associative array of information about this application.
  */
-$ThemeInfo['Epicenter'] = array(
-   'Description' => "Epicenter is the default Ground.Zero theme.",
-   'Version' => '1.1',
-   'Author' => "Carl Bloor",
-   'AuthorEmail' => 'admin@eurekapc.net',
-   'AuthorUrl' => 'http://eurekapc.net/'
+$ThemeInfo['TheColdroom'] = array(
+   'Description' => "This is the theme for TheColdroom.com.",
+   'Version' => '1.0',
+   'Author' => "Ganit Bar-Dor",
+   'AuthorEmail' => 'ganit.bardor@gmail.com',
+   'AuthorUrl' => 'http://www.thecoldroom.com/ganit'
 );
