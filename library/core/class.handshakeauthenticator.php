@@ -111,11 +111,11 @@ class Gdn_HandshakeAuthenticator extends Gdn_Pluggable implements Gdn_IAuthentic
             $Cookie .= '; ';
             
          if(!is_array($Value)) {
-           $Cookie .= $Key.'='.urlencode($Value);
+           $Cookie .= $Key.'='.base64_encode($Value);
          }
          else
          {
-           $Cookie .= $Key.'='.urlencode(serialize($Value));
+           $Cookie .= $Key.'='.base64_encode(serialize($Value));
          }
       }
 
